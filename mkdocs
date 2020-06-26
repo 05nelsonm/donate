@@ -13,12 +13,9 @@ extra:
     - icon: fontawesome/brands/medium
       link: https://medium.com/@matthewnelson.io
 
-#extra_css:
-#  - stylesheets/extra.css
-
-site_name: Donate To Matthew Nelson
+site_name: Donations
 site_url: https://donate.matthewnelson.io
-site_description: "Donations for Matthew Nelson"
+site_description: "Matthew Nelson's donations page"
 site_author: Matthew Nelson
 remote_branch: gh-pages
 
@@ -26,17 +23,8 @@ copyright: 'Copyright &copy; 2020 Matthew Nelson'
 
 theme:
   name: 'material'
-  favicon: https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/pixmaps/bitcoin64.png
   palette:
     scheme: 'default'
     primary: 'teal'
     accent: 'white'
   font: false
-
-markdown_extensions:
-    - toc:
-        toc_depth : "1-1"
-
-nav:
-  - 'Donate': index.md
-  - 'About Me': https://matthewnelson.io
